@@ -1,0 +1,29 @@
+# Ignore build artifacts and logs
+dist/
+build/
+logs/
+
+# Ignore IDE-specific configurations
+.vscode/
+.idea/
+
+# Ignore Python virtual environment
+.venv/
+
+# Ignore local development settings and configurations
+.env
+*.env.local
+
+# Ignore test output files and directories
+__pycache__/
+tests/unit/__pycache__/
+coverage/
+
+# Ignore auto-generated files and documentation
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+*.swp
+*.swo
+*.bak
